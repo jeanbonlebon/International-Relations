@@ -1,0 +1,52 @@
+nav#navTop{
+    background-color: $color2;
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+    .main_nav{
+        li{
+            margin-left: 55px;
+            a{
+                font-family: GiraffeyRegular;
+                color: $color1;
+                text-transform:uppercase;
+                font-size: 28px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .log_register{
+        ul{
+            display:inline-block;
+            vertical-align: middle;
+            li{
+                display:block;
+                text-align:center;
+                a{
+                    display:block;
+                    font-size:25px;
+                    &:first-child{
+                        margin-bottom:5px;
+                    }
+                }
+            }
+            img{
+              margin-right: 55px;
+              margin-left: 10px;
+            }
+        }
+    }
+    .serchbar{
+        & input, & a{
+            vertical-align: bottom;
+        }
+        input{
+            padding:3px;
+            margin-right:5px;
+            font-size: 19px;
+            @include border-radius(15px);
+        }
+    }
+}

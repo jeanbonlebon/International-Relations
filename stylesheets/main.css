@@ -1,0 +1,482 @@
+@font-face {
+  font-family: "Futura-CondensedExtraBold";
+  src: url("../fonts/Futura-CondensedExtraBold.eot?") format("eot"), url("../fonts/Futura-CondensedExtraBold.woff2") format("woff2"), url("../fonts/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/Futura-CondensedExtraBold.ttf") format("truetype"), url("../fonts/Futura-CondensedExtraBold.svg#Futura-CondensedExtraBold") format("svg");
+}
+@font-face {
+  font-family: "Futura-CondensedMedium";
+  src: url("../fonts/Futura-CondensedMedium.eot?") format("eot"), url("../fonts/Futura-CondensedMedium.woff2") format("woff2"), url("../fonts/Futura-CondensedMedium.woff") format("woff"), url("../fonts/Futura-CondensedMedium.ttf") format("truetype"), url("../fonts/Futura-CondensedMedium.svg#Futura-CondensedMedium") format("svg");
+}
+@font-face {
+  font-family: "Futura-Medium";
+  src: url("../fonts/Futura-Medium.eot?") format("eot"), url("../fonts/Futura-Medium.woff2") format("woff2"), url("../fonts/Futura-Medium.woff") format("woff"), url("../fonts/Futura-Medium.ttf") format("truetype"), url("../fonts/Futura-Medium.svg#Futura-Medium") format("svg");
+}
+@font-face {
+  font-family: "Futura-MediumItalic";
+  src: url("../fonts/Futura-MediumItalic.eot?") format("eot"), url("../fonts/Futura-MediumItalic.woff2") format("woff2"), url("../fonts/Futura-MediumItalic.woff") format("woff"), url("../fonts/Futura-MediumItalic.ttf") format("truetype"), url("../fonts/Futura-MediumItalic.svg#Futura-MediumItalic") format("svg");
+}
+@font-face {
+  font-family: "GiraffeyRegular";
+  src: url("../fonts/GiraffeyRegular.eot?") format("eot"), url("../fonts/GiraffeyRegular.woff2") format("woff2"), url("../fonts/GiraffeyRegular.woff") format("woff"), url("../fonts/GiraffeyRegular.ttf") format("truetype"), url("../fonts/GiraffeyRegular.svg#GiraffeyRegular") format("svg");
+}
+/* line 1, ../sass/componements/main.scss */
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/componements/main.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 16, ../sass/componements/main.scss */
+input {
+  outline: 0;
+}
+
+/* line 19, ../sass/componements/main.scss */
+fieldset {
+  border: none;
+}
+
+/* line 23, ../sass/componements/main.scss */
+.center {
+  text-align: center;
+}
+
+/* line 26, ../sass/componements/main.scss */
+.right {
+  text-align: right;
+}
+
+/* line 29, ../sass/componements/main.scss */
+.left {
+  text-align: left;
+}
+
+/* line 32, ../sass/componements/main.scss */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* line 36, ../sass/componements/main.scss */
+.wrapper {
+  padding: 0px 50px;
+}
+
+/* line 39, ../sass/componements/main.scss */
+.container_inline {
+  font-size: 0;
+}
+/* line 41, ../sass/componements/main.scss */
+.container_inline .child {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+/* line 46, ../sass/componements/main.scss */
+.container_inline .for5 {
+  width: 15%;
+}
+/* line 49, ../sass/componements/main.scss */
+.container_inline .for4 {
+  width: 25%;
+}
+/* line 52, ../sass/componements/main.scss */
+.container_inline .for4_5 {
+  width: 35%;
+}
+/* line 55, ../sass/componements/main.scss */
+.container_inline .for3 {
+  width: 33.33%;
+}
+/* line 58, ../sass/componements/main.scss */
+.container_inline .for2 {
+  width: 50%;
+}
+
+/* line 63, ../sass/componements/main.scss */
+.link_one {
+  padding: 5px 45px;
+  border: solid 1px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  font-family: GiraffeyRegular;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 70, ../sass/componements/main.scss */
+.link_one.c1 {
+  color: #FFF;
+  background-color: #1e1e1e;
+  border-color: #FFF;
+}
+/* line 75, ../sass/componements/main.scss */
+.link_one.c2 {
+  color: #1e1e1e;
+  background-color: #FFF;
+  border-color: #1e1e1e;
+}
+/* line 80, ../sass/componements/main.scss */
+.link_one.c3 {
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #FFF;
+  color: #000;
+}
+/* line 87, ../sass/componements/main.scss */
+.link_one.c4 {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  font-family: Futura-CondensedMedium;
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 94, ../sass/componements/main.scss */
+.link_one.c5 {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  font-family: Futura-CondensedMedium;
+  color: #FFF;
+  background-color: #00aaa4;
+  border-color: #FFF;
+}
+
+/* line 103, ../sass/componements/main.scss */
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+/* line 107, ../sass/componements/main.scss */
+h1 {
+  color: #000;
+  font-family: GiraffeyRegular;
+  font-size: 75px;
+  letter-spacing: 8px;
+}
+
+/* line 114, ../sass/componements/main.scss */
+h2 {
+  color: #FFF;
+  font-family: Futura-CondensedMedium;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+/* line 120, ../sass/componements/main.scss */
+h3 {
+  font-family: Futura-CondensedMedium;
+  font-size: 30px;
+}
+
+/* line 124, ../sass/componements/main.scss */
+h4 {
+  color: #FFF;
+  font-family: GiraffeyRegular;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+/* line 131, ../sass/componements/main.scss */
+p {
+  font-family: Futura-CondensedMedium;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* line 1, ../sass/componements/top_menu.scss */
+nav#navTop {
+  background-color: #1e1e1e;
+}
+/* line 4, ../sass/componements/top_menu.scss */
+nav#navTop ul li {
+  display: inline-block;
+}
+/* line 9, ../sass/componements/top_menu.scss */
+nav#navTop .main_nav li {
+  margin-left: 55px;
+}
+/* line 11, ../sass/componements/top_menu.scss */
+nav#navTop .main_nav li a {
+  font-family: GiraffeyRegular;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+/* line 21, ../sass/componements/top_menu.scss */
+nav#navTop .log_register ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 24, ../sass/componements/top_menu.scss */
+nav#navTop .log_register ul li {
+  display: block;
+  text-align: center;
+}
+/* line 27, ../sass/componements/top_menu.scss */
+nav#navTop .log_register ul li a {
+  display: block;
+  font-size: 25px;
+}
+/* line 30, ../sass/componements/top_menu.scss */
+nav#navTop .log_register ul li a:first-child {
+  margin-bottom: 5px;
+}
+/* line 35, ../sass/componements/top_menu.scss */
+nav#navTop .log_register ul img {
+  margin-right: 55px;
+  margin-left: 10px;
+}
+/* line 42, ../sass/componements/top_menu.scss */
+nav#navTop .serchbar input, nav#navTop .serchbar a {
+  vertical-align: bottom;
+}
+/* line 45, ../sass/componements/top_menu.scss */
+nav#navTop .serchbar input {
+  padding: 3px;
+  margin-right: 5px;
+  font-size: 19px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* line 2, ../sass/componements/home.scss */
+#firstSection .child {
+  height: 140vh;
+  position: relative;
+}
+/* line 5, ../sass/componements/home.scss */
+#firstSection .child.infos {
+  background: url(../images/first_section/infos.jpg);
+  background-size: cover;
+}
+/* line 9, ../sass/componements/home.scss */
+#firstSection .child.events {
+  background: url(../images/first_section/events.jpg);
+  background-size: cover;
+}
+/* line 13, ../sass/componements/home.scss */
+#firstSection .child.directory {
+  background: url(../images/first_section/directory.jpg);
+  background-size: cover;
+}
+/* line 17, ../sass/componements/home.scss */
+#firstSection .child fieldset {
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 23, ../sass/componements/home.scss */
+#firstSection .child fieldset img {
+  margin: 0 auto;
+  display: block;
+}
+/* line 27, ../sass/componements/home.scss */
+#firstSection .child fieldset span {
+  font-family: Futura-CondensedMedium;
+  display: block;
+  text-align: center;
+  padding: 10px 45px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: solid 1px transparent;
+  letter-spacing: 5px;
+  margin: 60px 0;
+}
+/* line 40, ../sass/componements/home.scss */
+#firstSection .child fieldset span.trasparent {
+  background-color: transparent;
+  border: solid 1px #FFF;
+}
+/* line 45, ../sass/componements/home.scss */
+#firstSection .child fieldset a {
+  display: block;
+  margin: 0 auto;
+  width: 175px;
+  padding: 10px 0px;
+  font-size: 25px;
+  font-family: Futura-CondensedMedium;
+}
+
+/* line 57, ../sass/componements/home.scss */
+#secondSection {
+  position: relative;
+  height: 700px;
+  background: url(../images/second_section/carte.png) center center no-repeat;
+  padding: 80px 0;
+}
+/* line 62, ../sass/componements/home.scss */
+#secondSection .presentation {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 0;
+}
+/* line 69, ../sass/componements/home.scss */
+#secondSection .presentation h3, #secondSection .presentation p {
+  color: #FFF;
+  letter-spacing: 1px;
+}
+
+/* line 78, ../sass/componements/home.scss */
+#thirdSection .face {
+  background: url(../images/third_section/face.jpg) center center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+/* line 83, ../sass/componements/home.scss */
+#thirdSection .face .desc {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 15%;
+  background-image: url(../images/third_section/quotes.png), url(../images/third_section/quotes2.png);
+  background-position: 10% 25%, 90% 85%;
+  background-repeat: no-repeat;
+}
+/* line 91, ../sass/componements/home.scss */
+#thirdSection .face .desc p {
+  color: #FFF;
+}
+/* line 96, ../sass/componements/home.scss */
+#thirdSection .vynil {
+  background: url(../images/third_section/vynil.jpg) center bottom no-repeat;
+  background-size: 50%;
+}
+/* line 100, ../sass/componements/home.scss */
+#thirdSection .laptop {
+  background: url(../images/third_section/laptop.jpg) left top no-repeat;
+  background-size: 50%;
+}
+/* line 105, ../sass/componements/home.scss */
+#thirdSection div figure {
+  height: 40vh;
+}
+/* line 107, ../sass/componements/home.scss */
+#thirdSection div figure.laptop {
+  position: relative;
+}
+/* line 109, ../sass/componements/home.scss */
+#thirdSection div figure.laptop fieldset {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+}
+/* line 119, ../sass/componements/home.scss */
+#thirdSection figure fieldset a {
+  font-size: 25px;
+}
+
+/* line 126, ../sass/componements/home.scss */
+#fourthSection {
+  padding: 50px 0;
+}
+/* line 128, ../sass/componements/home.scss */
+#fourthSection h2 {
+  margin-top: 55px;
+  text-align: center;
+  color: #000;
+}
+/* line 133, ../sass/componements/home.scss */
+#fourthSection p {
+  text-align: justify;
+}
+
+/* line 1, ../sass/componements/slider.scss */
+#slider {
+  margin: 2em auto;
+  width: 960px;
+  overflow: hidden;
+}
+
+/* line 7, ../sass/componements/slider.scss */
+#slider-wrapper {
+  width: 9999px;
+  height: 300px;
+  position: relative;
+  transition: left 400ms linear;
+}
+
+/* line 14, ../sass/componements/slider.scss */
+.slide {
+  float: left;
+  width: 960px;
+  height: 300px;
+  position: relative;
+  padding: 40px 0;
+}
+
+/* line 22, ../sass/componements/slider.scss */
+#slider-nav {
+  font-size: 15px;
+  margin: 1em 0;
+  text-align: center;
+}
+
+/* line 28, ../sass/componements/slider.scss */
+#slider-nav a {
+  width: 2em;
+  height: 2em;
+  border: solid 4px #00a9a3;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #00a9a3;
+  display: inline-block;
+  line-height: 2;
+  margin-right: 0.5em;
+}
+
+/* line 41, ../sass/componements/slider.scss */
+#slider-nav a.current {
+  background-color: #FFF;
+}
+
+/* line 1, ../sass/componements/footer.scss */
+#footer {
+  padding: 40px 0;
+  background-color: #1e1e1e;
+  font-family: Futura-CondensedMedium;
+}
+/* line 5, ../sass/componements/footer.scss */
+#footer .wrapper {
+  padding: 0px 26%;
+}
+/* line 7, ../sass/componements/footer.scss */
+#footer .wrapper h4 {
+  display: inline-block;
+  padding: 0px 20px 15px 20px;
+  border-bottom: solid 1px #FFF;
+}
+/* line 12, ../sass/componements/footer.scss */
+#footer .wrapper .block_footer {
+  color: #FFF;
+  padding-left: 15px;
+}

@@ -1,0 +1,135 @@
+*, body{
+    margin:0;
+    padding:0;
+}
+
+//Colors
+$color1: #FFF;
+$color2: #1e1e1e;
+$color3: #000;
+$color4: #00aaa4;
+$color5: #00a9a3;
+
+a{
+    text-decoration:none;
+}
+input{
+    outline:0;
+}
+fieldset{
+    border:none;
+}
+
+.center{
+    text-align:center;
+}
+.right{
+    text-align:right;
+}
+.left{
+    text-align:left;
+}
+.container{
+    width:800px;
+    margin:0 auto;
+}
+.wrapper{
+    padding:0px 50px;
+}
+.container_inline{
+    font-size: 0;
+    .child{
+      display:inline-block;
+      vertical-align: middle;
+      font-size: 18px;
+    }
+    .for5{
+        width:15%;
+    }
+    .for4{
+        width:25%;
+    }
+    .for4_5{
+        width:35%;
+    }
+    .for3{
+        width:33.33%;
+    }
+    .for2{
+        width:50%;
+    }
+}
+
+.link_one{
+    padding: 5px 45px;
+    border: solid 1px;
+    @include border-radius(15px);
+    font-family: GiraffeyRegular;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    &.c1{
+        color: $color1;
+        background-color: $color2;
+        border-color: $color1;
+    }
+    &.c2{
+        color: $color2;
+        background-color: $color1;
+        border-color: $color2;
+    }
+    &.c3{
+        border:none;
+        @include border-radius(5px);
+        font-weight: bold;
+        background-color: $color1;
+        color: $color3;
+    }
+    &.c4{
+        @include border-radius(25px);
+        font-family: Futura-CondensedMedium;
+        color: $color1;
+        background-color: $color3;
+        border-color: $color3;
+    }
+    &.c5{
+        @include border-radius(25px);
+        font-family: Futura-CondensedMedium;
+        color: $color1;
+        background-color: $color4;
+        border-color: $color1;
+    }
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+    margin:25px 0;
+}
+h1{
+    color: $color3;
+    font-family:GiraffeyRegular;
+    font-size:75px;
+    letter-spacing: 8px;
+}
+
+h2{
+    color: $color1;
+    font-family:Futura-CondensedMedium;
+    font-size:60px;
+    letter-spacing: 5px;
+}
+h3{
+    font-family:Futura-CondensedMedium;
+    font-size: 30px;
+}
+h4{
+    color: $color1;
+    font-family:GiraffeyRegular;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family:Futura-CondensedMedium;
+    margin-bottom:20px;
+    font-size:22px;
+}

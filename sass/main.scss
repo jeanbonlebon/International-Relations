@@ -1,0 +1,14 @@
+@import 'mixins.scss';
+
+//Fonts
+@include font-face(Futura-CondensedExtraBold, "../fonts/Futura-CondensedExtraBold");
+@include font-face(Futura-CondensedMedium, "../fonts/Futura-CondensedMedium");
+@include font-face(Futura-Medium, "../fonts/Futura-Medium");
+@include font-face(Futura-MediumItalic, "../fonts/Futura-MediumItalic");
+@include font-face(GiraffeyRegular, "../fonts/GiraffeyRegular");
+
+@import 'componements/main.scss';
+@import 'componements/top_menu.scss';
+@import 'componements/home.scss';
+@import 'componements/slider.scss';
+@import 'componements/footer.scss';

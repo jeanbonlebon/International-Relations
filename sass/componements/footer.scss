@@ -1,0 +1,17 @@
+#footer{
+    padding:40px 0;
+    background-color: $color2;
+    font-family: Futura-CondensedMedium;
+    .wrapper{
+        padding: 0px 26%;
+        h4{
+            display: inline-block;
+            padding: 0px 20px 15px 20px;
+            border-bottom: solid 1px $color1;
+        }
+        .block_footer{
+            color:$color1;
+            padding-left: 15px;
+        }
+    }
+}

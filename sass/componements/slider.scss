@@ -1,0 +1,43 @@
+#slider {
+	margin: 2em auto;
+	width: 960px;
+	overflow: hidden;
+}
+
+#slider-wrapper {
+	width: 9999px;
+	height: 300px;
+	position: relative;
+	transition: left 400ms linear;
+}
+
+.slide {
+	float: left;
+	width: 960px;
+	height: 300px;
+	position: relative;
+  padding: 40px 0;
+}
+
+#slider-nav {
+  font-size:15px;
+	margin: 1em 0;
+	text-align: center;
+}
+
+#slider-nav a {
+	width: 2em;
+	height: 2em;
+	border:solid 4px $color5;
+	@include border-radius(50%);
+	text-align: center;
+	text-decoration: none;
+	background-color: $color5;
+	display: inline-block;
+	line-height: 2;
+	margin-right: 0.5em;
+}
+
+#slider-nav a.current {
+	background-color: $color1;
+}
