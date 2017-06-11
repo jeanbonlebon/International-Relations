@@ -12,6 +12,32 @@
         .block_footer{
             color:$color1;
             padding-left: 15px;
+            h5{
+                font-size: 22px;
+                font-weight: 100;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+            .link_block{
+                img{
+                    display: inline-block;
+                }
+                .link_texts{
+                    vertical-align: super;
+                    margin-left:15px;
+                    margin-bottom:20px;
+                    display: inline-block;
+                    p{
+                        margin-bottom:5px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .contact{
+            p{
+                margin-left:45px;
+            }
         }
     }
 }

@@ -9,6 +9,12 @@ $color2: #1e1e1e;
 $color3: #000;
 $color4: #00aaa4;
 $color5: #00a9a3;
+$color6: #007763;
+$color7: #f57e20;
+$color8: #3688c8;
+$color9: #137089;
+$color10: #3f2a78;
+$color11: #c42032;
 
 a{
     text-decoration:none;
@@ -28,6 +34,15 @@ fieldset{
 }
 .left{
     text-align:left;
+}
+.img_responsive{
+    display: block;
+    max-width: 100%;
+    margin:0 auto;
+}
+.big_container{
+    width:1080px;
+    margin:0 auto;
 }
 .container{
     width:800px;
@@ -57,6 +72,9 @@ fieldset{
     }
     .for2{
         width:50%;
+    }
+    .for2_5{
+        width:75%;
     }
 }
 
@@ -126,6 +144,15 @@ h4{
     font-family:GiraffeyRegular;
     font-size: 30px;
     letter-spacing: 2px;
+}
+h5.outline{
+    font-family: Arial;
+    display: initial;
+    background-color: #626262;
+    padding: 12px 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:$color1;
 }
 
 p{

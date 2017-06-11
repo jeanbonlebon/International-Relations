@@ -1,0 +1,97 @@
+#presentation_infos{
+    .big_container{
+        margin-top:80px;
+        margin-bottom:40px;
+        background-image: url(../images/third_section/quotes.png), url(../images/third_section/quotes2.png);
+        background-position: 0% 5%, 100% 95%;
+        background-repeat: no-repeat;
+        padding: 75px 0px;
+        p{
+            font-size: 26px;
+            &:last-child{
+                margin-bottom:0;
+            }
+        }
+    }
+}
+
+
+.iut_section{
+    padding: 40px 100px;
+    figure{
+        @include border-radius(15px);
+        .child{
+            vertical-align: top;
+        }
+        fieldset{
+            padding:20px 0;
+            p{
+                color:$color1;
+                font-family: Arial;
+                letter-spacing: 1px;
+                span{
+                    font-weight: bold;
+                    font-size:26px;
+                    letter-spacing: 2px;
+                    font-family: Futura-CondensedMedium;
+                }
+            }
+            ul{
+                li{
+                    list-style-type: none;
+                    color:$color1;
+                    font-size:22px;
+                    font-family: Arial;
+                    letter-spacing: 1px;
+                    margin-top: 8px;
+                    span{
+                        margin-top:0px;
+                        margin-bottom:8px;
+                        font-weight: bold;
+                        font-size:26px;
+                        font-family: Futura-CondensedMedium;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+            p, ul{
+                padding:0px 25px;
+            }
+        }
+    }
+    #gea{
+        background-color:$color6;
+    }
+    #geii{
+        background-color:$color7;
+    }
+    #gmp{
+        background-color:$color8;
+    }
+    #mmi{
+        background-color:$color9;
+    }
+    #tc{
+        background-color:$color10;
+    }
+    #cj{
+        background-color:$color11;
+    }
+
+
+}
+
+.complementary{
+    p{
+        font-family: Arial;
+    }
+    ul{
+        margin-left:45px;
+        margin-bottom:50px;
+        li{
+            font-family: Arial;
+            font-size: 22px;
+            list-style-type: none;
+        }
+    }
+}

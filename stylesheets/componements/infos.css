@@ -1,28 +1,39 @@
 /*
 Error: Undefined mixin 'border-radius'.
-        on line 84 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss, in `border-radius'
-        from line 84 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss
+        on line 22 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss, in `border-radius'
+        from line 22 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss
 
-79: }
-80: 
-81: .link_one{
-82:     padding: 5px 45px;
-83:     border: solid 1px;
-84:     @include border-radius(15px);
-85:     font-family: GiraffeyRegular;
-86:     text-transform: uppercase;
-87:     letter-spacing: 1px;
-88:     &.c1{
-89:         color: $color1;
+17: 
+18: 
+19: .iut_section{
+20:     padding: 40px 100px;
+21:     figure{
+22:         @include border-radius(15px);
+23:         .child{
+24:             vertical-align: top;
+25:         }
+26:         fieldset{
+27:             padding:20px 0;
 
 Backtrace:
-C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss:84:in `border-radius'
-C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss:84
+C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss:22:in `border-radius'
+C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss:22
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `with_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `map'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
@@ -73,4 +84,4 @@ C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'border-radius'.\A         on line 84 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss, in `border-radius'\A         from line 84 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/main.scss\A \A 79: }\A 80: \A 81: .link_one{\A 82:     padding: 5px 45px;\A 83:     border: solid 1px;\A 84:     @include border-radius(15px);\A 85:     font-family: GiraffeyRegular;\A 86:     text-transform: uppercase;\A 87:     letter-spacing: 1px;\A 88:     &.c1{\A 89:         color: $color1;"; }
+  content: "Error: Undefined mixin 'border-radius'.\A         on line 22 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss, in `border-radius'\A         from line 22 of C:/Users/Robin/Desktop/Amine Front/ressources/sass/componements/infos.scss\A \A 17: \A 18: \A 19: .iut_section{\A 20:     padding: 40px 100px;\A 21:     figure{\A 22:         @include border-radius(15px);\A 23:         .child{\A 24:             vertical-align: top;\A 25:         }\A 26:         fieldset{\A 27:             padding:20px 0;"; }
